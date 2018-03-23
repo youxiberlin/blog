@@ -14,6 +14,8 @@ Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012
 はじめまして、佐藤ゆきです。
 2012年秋にベルリンに移住し、以来ベルリンでテックスタートアップシーンに関する文章を書いたり、リサーチをしています。
 <br><br>
+コンタクトはこちらまで： sato.youxi(a)gmail.com
+<br><br>
 <h3>略歴 </h3>
 <div class="my-bio">
 <b>1982</b> - 横浜で生まれ、横浜の片隅で育つ。 <br>
