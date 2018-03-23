@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Pickup news 0303"
+date:   2018-03-03 23:12:50 +0100
+categories: blog
+excerpt_separator: <!--more-->
+categories: pickup
+---

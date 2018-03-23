@@ -1,0 +1,174 @@
+@import "variables";
+
+/*
+    body
+    ======================== */
+
+body {
+  font-family: $body-font;
+  font-size: 0.95em;
+  line-height: 1.8em;
+  color: $body-color;
+  background-color: #ffffff;
+  background-image: url('../images/grid.svg');
+}
+
+strong {
+ font-weight: normal;
+ background-color: $blog-color;
+}
+
+hr {
+  border-top: 1px dashed #8c8b8b;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+
+blockquote {
+  /* background-color: #f8f8f8; */
+/*  background-color: 	rgba(128,128,128,0.03); */
+  border-left: 10px solid #333;
+  padding: 10px 30px 10px 30px;
+  font-size: 0.9em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.small {
+  font-size: 0.9em;
+}
+
+// background-color for the main title of blog, work, about page //
+
+.blog-title {
+  background-color: $blog-color;
+  padding: 5px;
+}
+
+.blog-cat-title {
+  font-size: 2.4em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-left: solid 8px $blog-color;
+  padding: 0em 0.4em;
+}
+
+.work-cat-title {
+  font-size: 2.4em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-left: solid 8px $work-color;
+  padding: 0em 0.4em;
+}
+
+.about-cat-title {
+  font-size: 2.4em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-left: solid 8px $about-color;
+  padding: 0em 0.4em;
+}
+
+.post-title {
+  background-color: $blog-color;
+  padding: 5px;
+}
+
+
+
+// post page
+
+.blog-excerpt {
+  color: #616A6B;
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-bottom:15px;
+}
+
+.blog-list-font {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2em;
+  }
+
+// page description
+.page-description {
+  padding: 30px;
+  font-weight: 600;
+  border-bottom: solid 1px #dddddd;
+}
+
+// post date
+
+.post-date {
+  color: #B2BABB;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.post-author {
+  color: #888;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+// font of list of home
+
+.site-title {
+  font-family: $body-font;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.home-cat-title {
+  font-size: 2.4em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+// footer
+
+.footer-font {
+  font-family: $body-font;
+  font-size: 0.7em;
+  color: #515A5A;
+  text-align: center;
+}
+
+.profile-image {
+  margin-left: 20px;
+}
+
+// media info of work
+
+.work-media {
+  color: #c0c0c0;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+// chcolonogical bio on about page
+
+.my-bio {
+  font-size: 0.8em;
+  /* background-color: 	rgba(128,128,128,0.05); */
+  border-left: 3px solid #707070;
+  padding: 5px 30px;
+}
+
+.social-icon {
+  text-align:center;
+  letter-spacing: 10px;
+  color:#909090;
+  margin-bottom: 20px;
+}

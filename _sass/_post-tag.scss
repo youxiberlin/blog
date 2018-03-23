@@ -1,0 +1,23 @@
+/*
+    tag list
+    ======================== */
+
+
+.post-tags {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 1em;
+  color: #aaa;
+}
+
+.post-tags >li{
+  display: inline;
+  padding: 4px 8px;
+}
+
+.archive-tags {
+//  padding: 4px 12px;
+}

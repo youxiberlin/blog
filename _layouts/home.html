@@ -1,0 +1,33 @@
+---
+layout: wrapper
+date: YYYY-MM-DD
+---
+<h1 class="about-cat-title"><a href="/about/" class="about-link">About me</a></h1>
+<div class="small">
+Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012. For more info, please check out my <a href="https://www.linkedin.com/in/yukisato/" class="underline">LinkedIn page</a>.
+<br>
+はじめまして、ベルリン在住ライターの佐藤ゆきです。主にテックスタートアップシーンについて、執筆・翻訳・リサーチをしています。
+</div>
+<a href="/about/" class="about-link">>>></a>
+
+<h1 class="work-cat-title"><a href="/work/" class="work-link">Work</a></h1>
+<div class="home-list work">
+  {% capture my_include %}{% include_relative _worklist.md %}{% endcapture %}
+	{{ my_include | markdownify}}
+</div>
+<a href="/work/" class="work-link">>>></a>
+
+<h1 class="blog-cat-title"><a href="/blog/" class="blog-link">Blog</a></h1>
+<div class="home-list post">
+	<ul>
+		{% for post in site.categories.blog %}
+	    <li>
+	      <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
+	      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+	    </li>
+		{% endfor %}
+	</ul>
+</div>
+<a href="/blog/" class="blog-link">>>></a>
+
+<br>

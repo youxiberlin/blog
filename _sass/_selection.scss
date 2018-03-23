@@ -1,0 +1,11 @@
+// color applied when texts are selected
+
+::-moz-selection {
+  color: white;
+  background: #bbb;
+}
+
+::selection {
+  color: white;
+  background: #bbb;
+}

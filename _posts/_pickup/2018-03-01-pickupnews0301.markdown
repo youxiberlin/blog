@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Pickup news 0301"
+date:   2018-03-01 23:12:50 +0100
+categories: jekyll update
+excerpt_separator: <!--more-->
+categories: pickup
+---

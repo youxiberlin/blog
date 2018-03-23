@@ -1,0 +1,20 @@
+---
+layout: wrapper
+---
+<div>
+<h1 class="blog-cat-title">{{ page.tag }}</h1>
+<ul>
+{% for post in site.tags[page.tag] %}
+  {% if post.lang %}
+  <li lang="{{post.lang}}">
+  {% else %}
+  <li>
+  {% endif %}
+  	<b><a href="{{ post.url }}" class="blog-link">{{ post.title }}</a></b> <span class="post-date">{{ post.date  | date: "%Y-%m-%d" }}</span><br>
+  	<div class="blog-excerpt">{{ post.description }}</div>
+  	<!-- Tags: {{ post.tags | join: ", " }} -->
+  </li>
+{% endfor %}
+</ul>
+</div>
+{% include archive.html %}

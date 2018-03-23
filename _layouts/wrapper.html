@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>ykst</title>
+ <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+ <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<body>
+  <div class="wrapper">
+  	<div class="box header_title">{% include header.html %}</div>
+    <div class="box header_pages nested">
+      <div><a href="/blog/" class="blog-link">Blog</a></div>
+      <div><a href="/work/" class="work-link">Work</a></div>
+      <div><a href="/about/" class="about-link">About me</a></div>
+   </div>
+   <div class="box main">
+    {{ content }}
+   </div>
+   <div class="box footer">{% include footer.html %}</div>
+  </div>
+</body>
+</html>
