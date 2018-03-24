@@ -3,7 +3,7 @@ layout: post
 title:  "ベルリンのエンジニア採用事情ーー売り手市場、給与は上昇中、英語ができればOK"
 date:   2018-03-05 23:12:50 +0100
 categories: blog
-tags: Berlin Startup
+tags: berlin startup
 author: Yuki Sato
 excerpt_separator: <!--more-->
 description: 海外就職を検討している日本のソフトウェアエンジニアの方は、アメリカ西海岸を目指す方が多いようですが、ベルリンの採用事情についてはご存知でしょうか？ 簡単に、ベルリンのエンジニア採用事情、良い点・悪い点をまとめました。

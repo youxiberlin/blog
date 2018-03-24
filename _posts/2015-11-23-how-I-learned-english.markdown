@@ -3,7 +3,7 @@ layout: post
 title:  "私が英語をがんばろうと思ったきっかけ、そしてやったこと。"
 date:   2015-11-23 23:12:50 +0100
 categories: blog
-tags: Essay
+tags: essay
 author: Yuki Sato
 excerpt_separator: <!--more-->
 description: 超ドメスティックな環境で育ってきた私ですが、英語を本気でがんばろうと思うようになったのはある体験がきっかけでした。

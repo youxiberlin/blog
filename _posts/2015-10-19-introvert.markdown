@@ -3,7 +3,7 @@ layout: post
 title:  "内向型の私が、『内向型を強みにする』を読んで考えたこと"
 date:   2015-10-19 23:12:50 +0100
 categories: blog
-tags: Essay
+tags: essay
 author: Yuki Sato
 excerpt_separator: <!--more-->
 description: 自分の内向的な気質について理解したいと思って手に取った本がとても面白かったので、その本の内容とそこから学んだことについて書きました。
