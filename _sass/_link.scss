@@ -2,7 +2,10 @@
     link
     ======================== */
 
-a:link { text-decoration:none;}
+a {
+	text-decoration:none;
+	color: $body-color;
+}
 a:hover { text-decoration:underline;}
 a:visited { color: #24292e;}
 
@@ -55,9 +58,11 @@ a.tag-archive:hover, a.tag-archive:active {
 }
 
 // SNS fontawesome //
-a.social-link:link { text-decoration:none;}
+a.social-link {
+	text-decoration:none;
+  color: #888;
+}
 a.social-link:hover { text-decoration:none;}
-a.social-link:visited { color: #888;}
 
 .fa-twitter-square:hover {
 	color: $body-color;
