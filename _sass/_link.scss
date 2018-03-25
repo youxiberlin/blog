@@ -3,11 +3,18 @@
     ======================== */
 
 a {
-	text-decoration:none;
+	text-decoration:underline;
 	color: $body-color;
 }
 a:hover { text-decoration:underline;}
 a:visited { color: #24292e;}
+
+a.nounder {
+	text-decoration:none;
+	color: $body-color;
+}
+a.nounder:hover { text-decoration: underline;}
+a.nounder:visited { color: #24292e;}
 
 a.underline:link, a.underline:visited {text-decoration: underline;}
 a.underline:hover { font-weight: bold;}
