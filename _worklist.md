@@ -1,5 +1,8 @@
 <ul>
 <li>
+<a href="http://thebridge.jp/2018/02/berlin-startup-spaces" class="work-link" target="_blank">人口も賃料も上昇が続くベルリンで続々とオープンするスタートアップスペース、課題は地元住民との調和</a><span class="work-media">The Bridge</span>
+</li>
+<li>
 <a href="https://amp.review/2018/01/05/redi-school/" class="work-link" target="_blank">難民にプログラミングの学習支援を。ザッカーバーグも注目するベルリンの“難民のための学校</a><span class="work-media">AMP</span>
 </li>
 <li>
