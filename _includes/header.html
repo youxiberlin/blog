@@ -1,5 +1,12 @@
 <div class="site-title"><a href="/" class="nounder">{{ site.title }}</a></div>
 
 
-<meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
-<meta property="og:title"   content="{{ page.title }" />
+<!-- facebook Open Graph Metadatas -->
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+
+ <meta content="{{ page.description }}" property="og:description">
+
+ <meta content="/img/{{ page.image }}" property="og:image">

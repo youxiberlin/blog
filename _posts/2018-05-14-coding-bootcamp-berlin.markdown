@@ -6,7 +6,7 @@ categories: blog
 tags: dev
 author: Yuki Sato
 description: ここ1、2年でコーディングブートキャンプがベルリンでも増えてきています。今回力試しにブートキャンプに応募してみて、色々と学んだことを書いてみます。
-header-img: "img/kobu-agency-409288-unsplash.jpg"
+image: "kobu-agency-409288-unsplash.jpg"
 ---
 
 ソフトウェアデベロッパーになりたい、プログラミングを学んでみたい、という方の中で「コーディングブートキャンプ」で学ぶという選択肢について考えたことのある人は少なくないかと思います。
