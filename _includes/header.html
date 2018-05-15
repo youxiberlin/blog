@@ -1,1 +1,7 @@
 <div class="site-title"><a href="/" class="nounder">{{ site.title }}</a></div>
+
+{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+{% endif %}
+
+<meta property="og:description" content="{{ page.subtitle }}" />
