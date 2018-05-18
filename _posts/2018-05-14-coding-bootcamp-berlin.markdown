@@ -87,4 +87,8 @@ image: "kobu-agency-409288-unsplash.jpg"
 
 目標に応じて最適な学習方法が選べるとよいですね。
 
-それでは、一旦このへんで！
+それでは、一旦このへんで！    
+
+<a href="https://www.amazon.co.jp/Eloquent-JavaScript-2nd-Ed-Introduction/dp/1593275846/ref=as_li_ss_il?ie=UTF8&qid=1526634783&sr=8-1&keywords=eloquent+javascript&&linkCode=li3&tag=youxi-22&linkId=234c62b50ff0c1a6ef98083858c89329" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1593275846&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=youxi-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=youxi-22&l=li3&o=9&a=1593275846" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+[Eloquent JavaScript, 2nd Ed.: A Modern Introduction to Programming](https://amzn.to/2rShQJq)    
+一緒に勉強しませんか？
