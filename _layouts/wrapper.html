@@ -6,6 +6,24 @@
  <title>ykst</title>
  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+
+ <!-- facebook Open Graph Metadatas -->
+
+   <meta content="{{ page.title }}" property="og:title">
+
+   <meta content="{{ site.title }}" property="og:title">
+
+  <meta content="{{ page.description }}" property="og:description">
+
+  <meta content="/img/{{ page.image }}" property="og:image">
+
+  <!-- Twitter card -->
+ <meta name="twitter:card" content="summary"></meta>
+
+
+</head>
 <body>
   <div class="wrapper">
   	<div class="box header_title">{% include header.html %}</div>
