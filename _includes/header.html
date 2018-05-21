@@ -1,1 +1,59 @@
-<div class="site-title"><a href="/" class="nounder">{{ site.title }}</a></div>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>ykst</title>
+ <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+ <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<!-- facebook Open Graph Metadatas -->
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+{% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.image %}
+ <meta content="/img/{{ page.image }}" property="og:image">
+{% else %}
+ <meta content="/img/logo.jpg" property="og:image">
+{% endif %}
+{% if page.tags %}
+ {% for tag in page.tags %}
+ <meta content="{{ tag }}" property="article:tag">
+ {% endfor %}
+{% endif %}
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@{{ site.twitter_username }}">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.summary %}
+<meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}">
+{% endif %}
+<!-- end of Twitter cards -->
+
+</head>
