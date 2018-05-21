@@ -45,17 +45,17 @@
 <meta name="twitter:title"   content="{{ page.title }}">
 
 {% if page.summary %}
-<meta name="twitter:description" content="{{ page.summary }}">
+<meta name="twitter:description" content="{{ page.description }}">
 {% else %}
 <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 
 {% if page.image %}
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="/img/{{ page.image }}">
+<meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}">
 {% else %}
 <meta name="twitter:card"  content="summary">
-<meta name="twitter:image" content="/img/{{ page.image }}">
+<meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}">
 {% endif %}
 <!-- end of Twitter cards -->
 
