@@ -7,6 +7,7 @@ tags: essay
 author: Yuki Sato
 excerpt_separator: <!--more-->
 description: 自分の内向的な気質について理解したいと思って手に取った本がとても面白かったので、その本の内容とそこから学んだことについて書きました。
+image: "book.jpg"
 ---
 
 面白い本に出会ってしまいました。今年読んだ良書ベスト5入りは確実の本です。
