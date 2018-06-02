@@ -1,0 +1,30 @@
+<!doctype html>
+
+{% include header.html %}
+
+<body>
+
+<nav>
+  <div class="nav-container">
+    <div class="nav-left">
+      <div class="site-title"><a href="/" class="nounder">{{ site.title }}</a></div>
+    </div>
+    <div class="nav-right">
+        <ul>
+          <li><a href="/blog/" class="nounder">Blog</a></li>
+          <li><a href="/work/" class="nounder">Work</a></li>
+          <li><a href="/about/" class="nounder">About</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<section>
+  <div class="section-container">
+  {{ content }}
+  </div>
+</section>
+<footer>
+  {% include footer.html %}
+</footer>
+</body>
+</html>

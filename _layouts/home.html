@@ -1,7 +1,20 @@
 ---
-layout: wrapper
+layout: wrapper2
 date: YYYY-MM-DD
 ---
+<h1 class="blog-cat-title"><a href="/blog/" class="blog-link">Blog</a></h1>
+<div class="home-list post">
+	<ul>
+		{% for post in site.categories.blog %}
+	    <li>
+	      <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
+	      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+	    </li>
+		{% endfor %}
+	</ul>
+</div>
+<a href="/blog/" class="blog-link">>>></a>
+
 <h1 class="about-cat-title"><a href="/about/" class="about-link">About me</a></h1>
 <div class="small">
 Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012. For more info, please check out my <a href="https://www.linkedin.com/in/yukisato/" class="underline">LinkedIn page</a>.
@@ -16,18 +29,4 @@ Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012
 	{{ my_include | markdownify}}
 </div>
 <a href="/work/" class="work-link">>>></a>
-
-<h1 class="blog-cat-title"><a href="/blog/" class="blog-link">Blog</a></h1>
-<div class="home-list post">
-	<ul>
-		{% for post in site.categories.blog %}
-	    <li>
-	      <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
-	      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-	    </li>
-		{% endfor %}
-	</ul>
-</div>
-<a href="/blog/" class="blog-link">>>></a>
-
 <br>

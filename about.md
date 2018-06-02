@@ -3,9 +3,7 @@ layout: about
 title: About me
 permalink: /about/
 ---
-<!-- ![Profile picture]({{ "/assets/images/bridge-s.jpg" | absolute_url }}){:width="250px"}
 
-<img class="gray-image" src="/assets/images/bridge-s.jpg" alt="profile" width="200"> -->
 <br>
 <div class="profile-image"><img class="profile-image" align="right" src="/assets/images/bridge-ss.jpg" alt="profile" width="180"></div>
 Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012. For more info, please check out my Linkedin page ([please click here](https://www.linkedin.com/in/yukisato/){:target="_blank"}) .
