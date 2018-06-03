@@ -7,6 +7,7 @@ tags: essay
 author: Yuki Sato
 excerpt_separator: <!--more-->
 description: 超ドメスティックな環境で育ってきた私ですが、英語を本気でがんばろうと思うようになったのはある体験がきっかけでした。
+image: "silicon-allee.jpg"
 ---
 
 <b>「どうやったら英語を身につけられるんですか？」</b><br>

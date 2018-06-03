@@ -16,7 +16,7 @@
 title: ykst
 email: sato.youxi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  by Yuki Sato, Berlin-based Japanese writer.
+  by Yuki Sato / 佐藤ゆき, Berlin-based Japanese writer.
 baseurl:   # the subpath of your site, e.g. /blog
 url: http://www.ykst.de # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yuki_sat
@@ -27,6 +27,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 sass:
   style: compact
 permalink: /:title/
