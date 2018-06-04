@@ -134,6 +134,8 @@ nav {
 .nav-right {
   flex: 3;
   margin-right: 50px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
 }
 
 nav ul {
@@ -146,6 +148,7 @@ nav ul {
 nav li {
   display: inline-block;
   padding-left: 20px;
+
 }
 
 section {
