@@ -173,3 +173,37 @@ blockquote {
   color:#909090;
   margin-bottom: 20px;
 }
+
+//socialmedia icon
+.fa {
+  padding: 12px;
+  font-size: 12px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #888;
+  color: white;
+}
+
+.fa-twitter {
+  background: #888;
+  color: white;
+}
+
+.fa-instagram {
+  background: #888;
+  color: white;
+}
+
+.social-follow {
+  text-align: center;
+}
