@@ -24,9 +24,11 @@ a.nav-right-link {
 		color: #555;}
 a.nav-right-link:hover {text-decoration: underline;}
 
-a.blog-link{text-decoration:none;
+a.blog-link{color: #24292e;
+	          text-decoration:none;
 						font-size: 1.1rem;}
 a.blog-link:hover{background-color: $blog-color;}
+a.blog-link:visited { color: #24292e;}
 
 a.blog-link-title{text-decoration:none;
 					      	font-size: 2.4rem;}
