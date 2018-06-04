@@ -19,7 +19,8 @@ a.nounder:visited { color: #24292e;}
 a.underline:link, a.underline:visited {text-decoration: underline;}
 a.underline:hover { font-weight: bold;}
 
-a.blog-link{text-decoration:none;}
+a.blog-link{text-decoration:none;
+						font-size: 1.1rem;}
 a.blog-link:hover{background-color: $blog-color;}
 
 a.work-link{text-decoration:none;}
