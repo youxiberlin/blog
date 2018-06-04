@@ -4,7 +4,7 @@
 
 a {
 	text-decoration:underline;
-	color: $body-color;
+	// color: $body-color;
 }
 a:hover { text-decoration:underline;}
 a:visited { color: #24292e;}
@@ -19,8 +19,18 @@ a.nounder:visited { color: #24292e;}
 a.underline:link, a.underline:visited {text-decoration: underline;}
 a.underline:hover { font-weight: bold;}
 
-a.blog-link{text-decoration:none;}
+a.nav-right-link {
+		text-decoration:none;
+		color: #555;}
+a.nav-right-link:hover {text-decoration: underline;}
+
+a.blog-link{text-decoration:none;
+						font-size: 1.1rem;}
 a.blog-link:hover{background-color: $blog-color;}
+
+a.blog-link-title{text-decoration:none;
+					      	font-size: 2.4rem;}
+a.blog-link-title:hover{background-color: $blog-color;}
 
 a.work-link{text-decoration:none;}
 a.work-link:hover{background-color: $work-color;}

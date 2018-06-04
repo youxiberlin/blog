@@ -3,12 +3,12 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "typography";
 @import "layout-base";
+@import "typography";
 @import "selection";
-@import "link";
 @import "heading";
 @import "post-navigation";
 @import "post-tag";
 @import "home-list";
 @import "variables";
+@import "link";
