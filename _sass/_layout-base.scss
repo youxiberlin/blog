@@ -97,13 +97,14 @@ section {
     display: inline-block;
     padding-left: 20px;
   }
+
   .section-container {
     // position: absolute;
-    top: 30px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 35px auto;
+    margin: 0 auto;
     width: 90%;
     text-align: left;
   }
