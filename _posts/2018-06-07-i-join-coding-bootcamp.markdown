@@ -6,7 +6,7 @@ categories: blog
 tags: dev
 author: Yuki Sato
 description: 先日奨学金試験に合格したコーディングブートキャンプに参加することにしました。
-image: "bootcamp-picnic.jpg"
+image: "bootcamp-picnic.png"
 ---
 先日奨学金試験に合格したコーディングブートキャンプに、夏に参加することにしました。
 奨学金試験のことは、こちらの記事に詳しく書きました！
