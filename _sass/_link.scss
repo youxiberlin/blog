@@ -85,7 +85,7 @@ a.tag-archive:hover, a.tag-archive:active {
 }
 
 // SNS fontawesome //
-a.social-link {
+a.social-link:link, a.social-link:visited {
 	text-decoration:none;
   color: #888;
 }
@@ -96,4 +96,8 @@ a.social-link:hover { text-decoration:none;}
 }
 .fa-facebook-square:hover {
 	color: $body-color;
+}
+
+.circle-tw:hover, .circle-fb:hover, .circle-env:hover {
+	background: $body-color;
 }

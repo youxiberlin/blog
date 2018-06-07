@@ -142,8 +142,10 @@ blockquote {
 .footer-font {
   font-family: $body-font;
   font-size: 0.7em;
-  color: #515A5A;
+  // color: #515A5A;
+  color: #606060;
   text-align: center;
+  margin-top: 20px;
 }
 
 .profile-image {
@@ -189,21 +191,54 @@ blockquote {
     opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #888;
-  color: white;
-}
-
-.fa-twitter {
-  background: #888;
-  color: white;
-}
-
-.fa-instagram {
-  background: #888;
-  color: white;
-}
+// .fa-facebook {
+//   background: #888;
+//   color: white;
+// }
+//
+// .fa-twitter {
+//   background: #888;
+//   color: white;
+// }
+//
+// .fa-instagram {
+//   background: #888;
+//   color: white;
+// }
 
 .social-follow {
   text-align: center;
+}
+
+// Footer Fontawesome
+.circle-tw{
+	border-radius: 50%;
+	margin: 0.15em;
+	font-size: 1em;
+  padding: 0.3em 0.3em;
+  background:#606060;
+  color: #fff;
+	}
+
+.circle-fb{
+  	border-radius: 50%;
+  	margin: 0.15em;
+  	font-size: 1em;
+    padding: 0.3em 0.55em;
+    background: #606060;
+    color: #fff;
+  	}
+
+.circle-env {
+  border-radius: 50%;
+  margin: 0.15em;
+  font-size: 1em;
+  padding: 0.3em 0.3em;
+  background: #606060;
+  color: #fff;
+}
+
+.caret-right{
+  font-size: 1.5em;
+  color: #909090;
 }

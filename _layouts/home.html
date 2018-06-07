@@ -13,7 +13,12 @@ date: YYYY-MM-DD
 		{% endfor %}
 	</ul>
 </div>
-<a href="/blog/" class="blog-link">>>></a>
+<center>
+<a href="/blog/" class="blog-link">
+	<i class="fas fa-caret-right caret-right"></i>
+	<i class="fas fa-caret-right caret-right"></i>
+</a>
+</center>
 
 <h1 class="about-cat-title"><a href="/about/" class="about-link">About me</a></h1>
 <div class="small">
@@ -21,12 +26,21 @@ Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012
 <br>
 はじめまして、ベルリン在住ライターの佐藤ゆきです。主にテックスタートアップシーンについて、執筆・翻訳・リサーチをしています。
 </div>
-<a href="/about/" class="about-link">>>></a>
+<center>
+	<a href="/about/" class="about-link">
+		<i class="fas fa-caret-right caret-right"></i>
+		<i class="fas fa-caret-right caret-right"></i>
+	</a>
+</center>
 
 <h1 class="work-cat-title"><a href="/work/" class="work-link">Work</a></h1>
 <div class="home-list work">
   {% capture my_include %}{% include_relative _worklist.md %}{% endcapture %}
 	{{ my_include | markdownify}}
 </div>
-<a href="/work/" class="work-link">>>></a>
-<br>
+<center>
+	<a href="/work/" class="work-link">
+		<i class="fas fa-caret-right caret-right"></i>
+		<i class="fas fa-caret-right caret-right"></i>
+	</a>
+</center>

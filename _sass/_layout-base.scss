@@ -3,9 +3,10 @@ body {
 }
 
 nav {
-  height: 50px;
+  height: 55px;
   background-color: #eee;
   position: relative;
+  border-bottom: 0.1rem solid #E0E0E0;
 }
 
 .nav-container {
@@ -20,15 +21,19 @@ nav {
 }
 
 .nav-left {
- flex: 2;
+ flex: 3;
  margin-left: 50px;
 }
 
-.nav-right {
+.nav-center {
   flex: 3;
   margin-right: 50px;
   font-size: 0.85rem;
   text-transform: uppercase;
+}
+
+.nav-right {
+ flex: 1;
 }
 
 
@@ -60,6 +65,12 @@ section {
   text-align: left;
 }
 
+footer {
+  background: #eee;
+  padding-top: 25px;
+  margin-top: 20px;
+}
+
 /*
   ======  550px ======
 */
@@ -81,9 +92,13 @@ section {
    margin-left: 20px;
   }
 
-  .nav-right {
+  .nav-center {
     flex: 3;
     margin-right: 20px;
+  }
+
+  .nav-right {
+    display: none;
   }
 
   nav ul {
