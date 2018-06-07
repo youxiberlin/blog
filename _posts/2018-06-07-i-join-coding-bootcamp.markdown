@@ -16,7 +16,7 @@ image: "bootcamp-picnic.png"
 先日は、同じブートキャンプに参加するクラスメートたちと初対面。
 初対面はベルリンらしく、河原でピクニックでした。笑
 
-![bootcamp](/img/bootcamp-picnic.png){:width="550px"}
+![bootcamp](/img/bootcamp-picnic.png){:width="95%"}
 
 ブートキャンプには20名ほどが参加するようです。  
 既に参加を決めている人たちは、専用のSlackチャンネルでやりとりを始めています。  

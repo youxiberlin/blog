@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 description: 海外就職を検討している日本のソフトウェアエンジニアの方は、アメリカ西海岸を目指す方が多いようですが、ベルリンの採用事情についてはご存知でしょうか？ 簡単に、ベルリンのエンジニア採用事情、良い点・悪い点をまとめました。
 image: "silicon-allee.jpg"
 ---
-![silicon allee](/img/silicon-allee.jpg){:width="500px"}
+![silicon allee](/img/silicon-allee.jpg){:width="95%"}
 <center><small>ベルリンのコワーキングスペース・カフェ「Sankt Oberholz」で開催されていたスタートアップ界隈のミートアップ「Silicon Allee」</small></center>
 
 海外で働いてみたい、経験を積みたい日本のソフトウェアエンジニアの方は、米サンフランシスコ・シリコンバレーを目指す方が多いと聞きますが、ベルリンのエンジニア採用事情についてはご存知でしょうか？<!--more-->
