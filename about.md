@@ -6,13 +6,21 @@ permalink: /about/
 
 <br>
 <div class="profile-image"><img class="profile-image" align="right" src="/assets/images/bridge-ss.jpg" alt="profile" width="180"></div>
-Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012. For more info, please check out my Linkedin page ([please click here](https://www.linkedin.com/in/yukisato/){:target="_blank"}) .
+Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012. For more info, please check out <a href="https://www.linkedin.com/in/yukisato/" target="_blank">my Linkedin page</a>.
 
 
-はじめまして、佐藤ゆきです。
+はじめまして、佐藤ゆきです。  
+こちらのサイトをご覧いただき、ありがとうございます。  
 2012年秋にベルリンに移住し、以来ベルリンでテックスタートアップシーンに関する文章を書いたり、リサーチをしています。
+
+### 主な仕事の実績
+<b>これまでの執筆・翻訳実績：</b>（一部）    
+THE BRIDGE, AMP, Hodokyoku（フジテレビ運営媒体）, WIRED Japan, Worksight, ビジネス +IT, Lifehacker Japan, iNTERNET magazine再起動号, ロケットニュース24など
 <br><br>
-コンタクトはこちらまで： sato.youxi(a)gmail.com
+<b>視察コーディネート・通訳・リサーチなど：</b>  
+ベルリンのスタートアップシーンを中心に、視察コーディネート実績も多数あります。<br>
+
+お仕事のお問い合わせはこちらのメールアドレスにお送りください：    sato.youxi(a)gmail.com
 <br><br>
 <h3>略歴 </h3>
 <div class="my-bio">
