@@ -7,26 +7,34 @@ body {
 
 nav {
   height: 55px;
-  // background-color: #eee;
   background: #fff;
-  // position: relative;
   border-bottom: 2px solid #E0E0E0;
 }
 
+
+@media(min-width:550px){
+  .home2-container {
+    display: flex;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .top-container {
+    display: flex;
+    margin-top: 20px;
+  }
+}
+
 .nav-container {
-  position: absolute;
   display: flex;
-  width: 80%;
-  top: 10px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  padding-top: 10px;
 }
 
 .nav-left {
  flex: 3;
- margin-left: 50px;
+ margin-left: 25px;
 }
 
 .nav-center {
@@ -59,11 +67,6 @@ section {
 }
 
 .section-container {
-  // position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   margin: 30px auto;
   width: 70%;
   text-align: left;
@@ -144,6 +147,187 @@ a.blog-link-side:hover {
   text-decoration: underline;
 }
 
+//top-page.html //
+
+.top-main-content {
+  flex-basis: 70%;
+  padding: 15px;
+}
+
+.top-side-bar {
+  flex-basis: 30%;
+  padding: 15px;
+}
+
+.top-blog-label {
+  border-bottom: 1px solid #ccc;
+}
+
+.top-blog-title {
+  font-size: 0.8rem;
+  background: #666;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px;
+  border-radius: 5px 5px 0 0;
+}
+
+.top-blog-list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-blog-list-left {
+  flex-basis: 25%;
+  padding: 16px 10px 0 0;
+}
+
+.top-blog-list--right {
+  flex-basis: 72%;
+}
+
+.top-blog-list-h4 {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin: 14px 0 0 0;
+}
+
+.top-blog-list-description {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  margin: 8px 0 0 0;
+}
+
+.top-blog-list-post-date{
+  font-size: 0.7rem;
+  color: #aaa;
+  margin: 0;
+}
+
+.about-top-content {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  margin: 15px 0;
+}
+
+.top-work-list li{
+  display: none;
+  margin-bottom: 12px;
+  &:nth-child(-n+5) {
+    display: list-item;
+  }
+}
+
+.top-work-list ul {
+  list-style: none;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  padding-left: 0;
+}
+
+
+/// home 2 ////
+
+// .home2-container {
+//   // display: flex;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   margin: auto;
+//   align-items: flex-start;
+// }
+//
+// .home2-container-left {
+//   flex: 5;
+//   margin: 0 auto;
+//   padding-top: 10px;
+//   padding-right: 20px;
+// }
+//
+// .home2-container-right {
+//   flex: 2;
+//   font-size: 0.9rem;
+//   line-height: 1.5rem;
+// }
+//
+//
+// .blog-thumbnail {
+//   flex: 1;
+// }
+//
+// .home-blog-list {
+//   flex: 3;
+// }
+//
+// .home2-list-ul {
+//   list-style: none;
+// }
+//
+// .sample2-container {
+//   display: flex;
+//   flex-direction: row;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   margin: auto;
+//   margin-bottom: 10px;
+//   align-items: flex-start;
+// }
+//
+// .sample2-left {
+//   flex: 1;
+// }
+//
+// .sample2-right {
+//   flex: 4;
+//   padding: 0 10px;
+// }
+//
+// .sample2-description {
+//   font-size: 0.8rem;
+//   line-height: 1rem;
+//   margin: 0.2rem 0 0 0;
+// }
+//
+// .sample2-post-date {
+//   font-size: 0.7rem;
+// }
+//
+// .sample2-h4 {
+//   margin: 0;
+//   line-height: 1.5rem;
+// }
+//
+// .home2-blog {
+//   font-size: 0.8rem;
+//   display: inline-block;
+//   color: #fff;
+//   padding: 0 15px;
+//   margin: 0;
+//   background: #606060;
+//   // border: 1px solid red;
+//   border-radius: 5px 5px 0 0;
+// }
+//
+// // wrapper5 //
+//
+// .wrapper5 {
+//   margin: 30px auto;
+//   width: 90%;
+// }
+//
+// .home2-blog-label {
+//   margin-bottom: 20px;
+//   border-bottom: 1px solid #ddd;
+//   width: 95%;
+// }
+
 /*
   ======  550px ======
 */
@@ -193,18 +377,12 @@ a.blog-link-side:hover {
   }
 
   .section-container {
-    // position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: 0 auto;
     width: 90%;
     text-align: left;
     float: none;
     padding-left: 0;
   }
-
 
   .side-bar {
     // background: #eee;

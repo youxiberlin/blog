@@ -1,0 +1,53 @@
+<div class="top-container">
+  <div class="top-main-content">
+    <div class="top-blog-label">
+        <a href="/blog/"><p class="top-blog-title">BLOG</p></a>
+    </div>
+    {% for post in site.posts %}
+     <div class="top-blog-list-container">
+      <div class="top-blog-list-left">
+        <a href="{{ post.url }}"><img src="/img/{{ post.image }}" width="120px;" alt=""></a>
+      </div>
+      <div class="top-blog-list--right">
+        <h4 class="top-blog-list-h4"><a href="{{ post.url }}" class="blog-link">{{ post.title }}</h4></a>
+        <p class="top-blog-list-description">
+          {{ post.description }}
+        </p>
+        <p class="top-blog-list-post-date">{{ post.date | date: "%Y-%m-%d" }} </p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="top-side-bar">
+
+
+      <div class="top-blog-label">
+          <a href="/about/"><p class="top-blog-title">ABOUT</p></a>
+      </div>
+      <div class="about-top-content">
+        Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012. For more info, please check out my LinkedIn. <br>
+        はじめまして、ベルリン在住ライターの佐藤ゆきです。主にテックスタートアップシーンについて、執筆・翻訳・リサーチをしています。
+      </div>
+      <center>
+      	<a href="/about/" class="about-link">
+      		<i class="fas fa-caret-right caret-right"></i>
+      		<i class="fas fa-caret-right caret-right"></i>
+      	</a>
+      </center>
+      <div class="top-blog-label">
+        <a href="/work/"><p class="top-blog-title">WORK</p></a>
+      </div>
+      <div class="top-work-list">
+        {% capture my_include %}{% include_relative _worklist.md %}{% endcapture %}
+        {{ my_include | markdownify}}
+      </div>
+      <center>
+      	<a href="/work/" class="work-link">
+      		<i class="fas fa-caret-right caret-right"></i>
+      		<i class="fas fa-caret-right caret-right"></i>
+      	</a>
+      </center>
+    </div>
+
+  </div>
+</div>
