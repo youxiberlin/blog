@@ -9,8 +9,6 @@ body {
   font-size: 1.05em;
   line-height: 1.85em;
   color: $body-color;
-  background-color: #ffffff;
-  // background-image: url('../images/grid.svg');
 }
 
 strong {
@@ -18,9 +16,6 @@ strong {
  background-color: $blog-color;
 }
 
-hr {
-  border-top: 1px dashed #8c8b8b;
-}
 
 img {
   display: block;
@@ -29,8 +24,6 @@ img {
 
 
 blockquote {
-  /* background-color: #f8f8f8; */
-/*  background-color: 	rgba(128,128,128,0.03); */
   border-left: 10px solid #333;
   padding: 10px 30px 10px 30px;
   font-size: 0.9em;
@@ -49,31 +42,28 @@ blockquote {
   padding: 5px;
 }
 
-.blog-cat-title {
+.cat-title {
   font-size: 2.4em;
   line-height: 1.2em;
   margin-bottom: 10px;
   margin-top: 20px;
-  border-left: solid 8px $blog-color;
   padding: 0em 0.4em;
+}
+
+.blog-cat-title {
+  border-left: solid 8px $blog-color;
 }
 
 .work-cat-title {
-  font-size: 2.4em;
-  line-height: 1.2em;
-  margin-bottom: 10px;
-  margin-top: 20px;
   border-left: solid 8px $work-color;
-  padding: 0em 0.4em;
 }
 
 .about-cat-title {
-  font-size: 2.4em;
-  line-height: 1.2em;
-  margin-bottom: 10px;
-  margin-top: 20px;
   border-left: solid 8px $about-color;
-  padding: 0em 0.4em;
+}
+
+.tag-cat-title:first-letter {
+  text-transform: uppercase;
 }
 
 .post-title {
@@ -142,7 +132,6 @@ blockquote {
 .footer-font {
   font-family: $body-font;
   font-size: 0.7em;
-  // color: #515A5A;
   color: #606060;
   text-align: center;
   margin-top: 20px;
@@ -190,21 +179,6 @@ blockquote {
 .fa:hover {
     opacity: 0.7;
 }
-
-// .fa-facebook {
-//   background: #888;
-//   color: white;
-// }
-//
-// .fa-twitter {
-//   background: #888;
-//   color: white;
-// }
-//
-// .fa-instagram {
-//   background: #888;
-//   color: white;
-// }
 
 .social-follow {
   text-align: center;
