@@ -1,0 +1,27 @@
+<div class="top-blog-label">
+    <a href="/about/"><p class="top-blog-title">ABOUT</p></a>
+</div>
+<div class="about-top-content">
+  Hello! My name is Yuki Sato. I am a Japanese writer, living in Berlin since 2012. For more info, please check out my LinkedIn. <br>
+  はじめまして、ベルリン在住ライターの佐藤ゆきです。主にテックスタートアップシーンについて、執筆・翻訳・リサーチをしています。
+</div>
+<center>
+  <a href="/about/" class="about-link">
+    <i class="fas fa-caret-right caret-right"></i>
+    <i class="fas fa-caret-right caret-right"></i>
+  </a>
+</center>
+<div class="top-blog-label">
+  <a href="/work/"><p class="top-blog-title">WORK</p></a>
+</div>
+<div class="top-work-list">
+  {% capture my_include %}{% include_relative _worklist.md %}{% endcapture %}
+  {{ my_include | markdownify}}
+</div>
+<center>
+  <a href="/work/" class="work-link">
+    <i class="fas fa-caret-right caret-right"></i>
+    <i class="fas fa-caret-right caret-right"></i>
+  </a>
+</center>
+</div>
