@@ -65,13 +65,6 @@ section {
   position: relative;
 }
 
-.section-container {
-  margin: 30px auto;
-  width: 70%;
-  text-align: left;
-}
-
-
 
 footer {
   background: #eee;
@@ -99,18 +92,17 @@ section {
   padding-left: 10%;
 }
 
-.side-bar {
-  // background: #eee;
-  width: 23%;
-  padding-right: 6%;
-  float: right;
-  margin-top: 90px;
-}
-
 .section-one-column {
   width: 70%;
   margin: auto;
   padding-top: 20px;
+}
+
+.side-bar {
+  width: 23%;
+  padding-right: 6%;
+  float: right;
+  margin-top: 90px;
 }
 
 .blog-link-side {
@@ -226,106 +218,6 @@ a.blog-link-side:hover {
   line-height: 1.3rem;
   padding-left: 0;
 }
-
-
-/// home 2 ////
-
-// .home2-container {
-//   // display: flex;
-//   width: 100%;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   margin: auto;
-//   align-items: flex-start;
-// }
-//
-// .home2-container-left {
-//   flex: 5;
-//   margin: 0 auto;
-//   padding-top: 10px;
-//   padding-right: 20px;
-// }
-//
-// .home2-container-right {
-//   flex: 2;
-//   font-size: 0.9rem;
-//   line-height: 1.5rem;
-// }
-//
-//
-// .blog-thumbnail {
-//   flex: 1;
-// }
-//
-// .home-blog-list {
-//   flex: 3;
-// }
-//
-// .home2-list-ul {
-//   list-style: none;
-// }
-//
-// .sample2-container {
-//   display: flex;
-//   flex-direction: row;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   margin: auto;
-//   margin-bottom: 10px;
-//   align-items: flex-start;
-// }
-//
-// .sample2-left {
-//   flex: 1;
-// }
-//
-// .sample2-right {
-//   flex: 4;
-//   padding: 0 10px;
-// }
-//
-// .sample2-description {
-//   font-size: 0.8rem;
-//   line-height: 1rem;
-//   margin: 0.2rem 0 0 0;
-// }
-//
-// .sample2-post-date {
-//   font-size: 0.7rem;
-// }
-//
-// .sample2-h4 {
-//   margin: 0;
-//   line-height: 1.5rem;
-// }
-//
-// .home2-blog {
-//   font-size: 0.8rem;
-//   display: inline-block;
-//   color: #fff;
-//   padding: 0 15px;
-//   margin: 0;
-//   background: #606060;
-//   // border: 1px solid red;
-//   border-radius: 5px 5px 0 0;
-// }
-//
-// // wrapper5 //
-//
-// .wrapper5 {
-//   margin: 30px auto;
-//   width: 90%;
-// }
-//
-// .home2-blog-label {
-//   margin-bottom: 20px;
-//   border-bottom: 1px solid #ddd;
-//   width: 95%;
-// }
 
 /*
   ======  550px ======
