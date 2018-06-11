@@ -62,8 +62,8 @@ blockquote {
   border-left: solid 8px $about-color;
 }
 
-.tag-cat-title:first-letter {
-  text-transform: uppercase;
+.tag-cat-title {
+  text-transform: capitalize;
 }
 
 .post-title {
