@@ -120,6 +120,18 @@ a.tag-archive:hover, a.tag-archive:active {
 		font-size: 1em;
 }
 
+.footer-nav-menu a:link, a:visited {
+	text-decoration: none;
+	color: #606060;
+}
+
+.footer-nav-menu a:hover, a:active {
+	text-decoration: underline;
+	color: #606060;
+}
+
+
+
 // SNS fontawesome //
 a.social-link:link, a.social-link:visited {
 	text-decoration:none;
