@@ -3,6 +3,18 @@
     ======================== */
 
 
+// post-top-tags //
+
+.post-top-tags {
+  display: inline;
+  padding: 10px;
+}
+.post-top-tags >li {
+  display: inline;
+}
+
+
+// normal tags //
 .post-tags {
   list-style: none;
   text-align: center;
@@ -16,8 +28,4 @@
 .post-tags >li{
   display: inline;
   padding: 4px 8px;
-}
-
-.archive-tags {
-//  padding: 4px 12px;
 }

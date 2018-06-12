@@ -1,5 +1,12 @@
 <h1><span class="post-title">{{ page.title }}</span></h1>
-<span class="post-date">{{ page.date  | date: "%Y-%m-%d" }}</span>
+<span class="post-date">{{ page.date  | date: "%Y-%m-%d" }} | by Yuki Sato</span>
+<ul class="post-top-tags">
+{% for tag in page.tags %}
+<li><a href="/tag/{{ tag }}" class="top-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+
 <div class="page-description">{{ page.description }}</div>
-<span class="post-author">by {{ page.author }}</span>
+<!-- <center><span class="post-author">by {{ page.author }}</span></center> -->
+<br>
 {% include social_share.html %}

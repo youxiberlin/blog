@@ -66,9 +66,22 @@ a.tag:link, a.tag:visited {
 a.tag:hover, a.tag:active {
     background-color: #888;
 		color: white;
-		font-size: 0.9em;
 }
 
+
+a.top-tag:link, a.top-tag:visited {
+		background: #bbb;
+    color: #fff;
+    padding: 2px 8px;
+    text-align: center;
+		font-size: 0.9em;
+    text-decoration: none;
+}
+
+
+a.top-tag:hover, a.top-tag:active {
+	background: #888;
+}
 
 // tag in archive //
 a.tag-archive:link, a.tag-archive:visited {
