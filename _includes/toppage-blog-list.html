@@ -4,7 +4,12 @@
     <a href="{{ post.url }}"><img src="/img/{{ post.image }}" width="120px;" alt=""></a>
   </div>
   <div class="top-blog-list--right">
-    <h4 class="top-blog-list-h4"><a href="{{ post.url }}" class="blog-link">{{ post.title }}</h4></a>
+    <a href="{{ post.url }}" class="blog-link"><h4 class="top-blog-list-h4">{{ post.title }}</h4></a>
+    <ul class="post-top-tags">
+    {% for tag in post.tags %}
+    <li><a href="/tag/{{ tag }}" class="home-tag">{{ tag }}</a></li>
+    {% endfor %}
+    </ul>
     <p class="top-blog-list-description">
       {{ post.description }}
     </p>

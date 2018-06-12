@@ -83,6 +83,25 @@ a.top-tag:hover, a.top-tag:active {
 	background: #888;
 }
 
+a.home-tag:link, a.home-tag:visited {
+		background: #bbb;
+    color: #fff;
+    padding: 1px 7px;
+    text-align: center;
+		font-size: 0.8em;
+		font-weight: 200;
+    text-decoration: none;
+}
+
+
+a.home-tag:hover, a.home-tag:active {
+	background: #888;
+}
+
+
+
+
+
 // tag in archive //
 a.tag-archive:link, a.tag-archive:visited {
   //  background-color: #888;
