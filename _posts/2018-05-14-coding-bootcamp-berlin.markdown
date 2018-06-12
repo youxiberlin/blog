@@ -3,7 +3,7 @@ layout: post
 title:  "最近のコーディングブートキャンプ事情＠ベルリン"
 date:   2018-05-14 12:00 +0100
 categories: blog
-tags: dev
+tags: dev berlin
 author: Yuki Sato
 description: ここ1、2年でコーディングブートキャンプがベルリンでも増えてきています。今回力試しにブートキャンプに応募してみて、色々と学んだことを書いてみます。
 image: "coding.jpg"
