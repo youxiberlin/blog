@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-layout
 title:  "ブログのデザインとレイアウトを更新 / CSSの醍醐味はレイアウトと配置かも"
 date:   2018-06-11 03:00 +0100
 categories: blog

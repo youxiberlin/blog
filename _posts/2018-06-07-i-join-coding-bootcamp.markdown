@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-layout
 title:  "コーディングブートキャンプに参加することを決めた理由"
 date:   2018-06-07 03:00 +0100
 categories: blog

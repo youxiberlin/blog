@@ -1,19 +1,18 @@
 <!doctype html>
 {% include header.html %}
-<body>
 {% include top-nav.html %}
 <section>
   <div class="top-container">
     <div class="post-container">
+    {% include post-header.html %}
+
     {{ content }}
+
+    {% include post-footer.html %}
     </div>
     <div class="side-bar">
     {% include side-blog-list.html %}
     </div>
   </div>
 </section>
-<footer>
 {% include footer.html %}
-</footer>
-</body>
-</html>

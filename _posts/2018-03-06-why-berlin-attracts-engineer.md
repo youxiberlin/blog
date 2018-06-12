@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-layout
 title:  "ベルリンのエンジニア採用事情ーー売り手市場、給与は上昇中、英語ができればOK"
 date:   2017-12-20 23:12:50 +0100
 categories: blog
