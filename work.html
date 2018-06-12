@@ -1,11 +1,9 @@
 ---
-layout: work
+layout: page-layout
 title: Work
 permalink: /work/
 ---
-<br>
 最近執筆した記事（一部）：
-<!-- <div class="home-list-font home-list work-list"> -->
 <div class="work-list">
 {% capture my_include %}{% include_relative _worklist.md %}{% endcapture %}
 {{ my_include | markdownify}}
