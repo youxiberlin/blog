@@ -19,10 +19,11 @@ image: "blog-new-layout.png"
 ブログのヘッダー、メインセクション、サイドバー、フッターといった主な構成要素を、崩れにくい形でどう配置すべきかどうか考え、CSSエキスパートの友人からもアドバイスをもらった結果、flexboxを活用してレイアウトを組むことにしました。
 
 以下は、ダミーのコンテンツを入れてますが、基本的に新しいブログレイアウトで活用しているCSSになります。  
-ヘッダーと、メインセクションにそれぞれflexboxを使っています。  
+ヘッダーと、メインセクションにそれぞれflexboxを使っています。
 
-<p data-height="265" data-theme-id="0" data-slug-hash="dKNaEO" data-default-tab="html,result" data-user="yukisato" data-embed-version="2" data-pen-title="Blog Layout" class="codepen">See the Pen <a href="https://codepen.io/yukisato/pen/dKNaEO/">Blog Layout</a> by Yuki (<a href="https://codepen.io/yukisato">@yukisato</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe height='265' scrolling='no' title='Blog Layout' src='//codepen.io/yukisato/embed/gKgqyG/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/yukisato/pen/gKgqyG/'>Blog Layout</a> by Yuki (<a href='https://codepen.io/yukisato'>@yukisato</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 
 CSSの最初で、@media(min-width:550px) の中でセクションとヘッダーのdisplayをflexに設定しておくことで、画面が550pxよりも小さくなったときにはflexboxの設定が外れて、1コラムになるようにしてみました。
 
