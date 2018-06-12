@@ -185,31 +185,29 @@ blockquote {
 }
 
 // Footer Fontawesome
-.circle-tw{
-	border-radius: 50%;
-	margin: 0.15em;
-	font-size: 1em;
-  padding: 0.3em 0.3em;
-  background:#606060;
-  color: #fff;
-	}
 
-.circle-fb{
-  	border-radius: 50%;
-  	margin: 0.15em;
-  	font-size: 1em;
-    padding: 0.3em 0.55em;
-    background: #606060;
-    color: #fff;
-  	}
-
-.circle-env {
+.circle-fa {
   border-radius: 50%;
   margin: 0.15em;
   font-size: 1em;
-  padding: 0.3em 0.3em;
-  background: #606060;
+  background:#606060;
   color: #fff;
+}
+
+.circle-tw{
+  padding: 0.3em 0.3em;
+	}
+
+.circle-fb{
+  padding: 0.3em 0.55em;
+  	}
+
+.circle-codepen {
+  padding: 0.3em 0.35em;
+	}
+
+.circle-env {
+  padding: 0.3em 0.3em;
 }
 
 .caret-right{
