@@ -1,21 +1,19 @@
 <!doctype html>
-
 {% include header.html %}
-
 <body>
-<div class="flex-container">
- {% include top-nav.html %}
-    <section>
-      <div class="section-container">
-      {{ content }}
-      </div>
-      <div class="side-bar">
-      {% include side-blog-list.html %}
-      </div>
-    </section>
-    <footer>
-      {% include footer.html %}
-    </footer>
-</div>
+{% include top-nav.html %}
+<section>
+  <div class="top-container">
+    <div class="post-container">
+    {{ content }}
+    </div>
+    <div class="side-bar">
+    {% include side-blog-list.html %}
+    </div>
+  </div>
+</section>
+<footer>
+{% include footer.html %}
+</footer>
 </body>
 </html>

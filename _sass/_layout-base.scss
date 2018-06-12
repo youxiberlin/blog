@@ -73,36 +73,24 @@ footer {
 }
 
 
-// wrapper3 //
+// post-layout //
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+
+.post-container {
+  flex-basis: 58%;
+  padding: 0 6%;
 }
 
-section {
-  flex: 1;
-}
-
-
-.section-container {
-  width: 55%;
-  float: left;
-  padding-left: 10%;
+.side-bar {
+  flex-basis: 25%;
+  margin-top: 60px;
+  padding: 10px;
 }
 
 .section-one-column {
   width: 70%;
   margin: auto;
   padding-top: 20px;
-}
-
-.side-bar {
-  width: 23%;
-  padding-right: 6%;
-  float: right;
-  margin-top: 90px;
 }
 
 .blog-link-side {
