@@ -2,7 +2,7 @@
   {% for post in site.categories.blog %}
     <li>
       <span class="post-date-side">{{ post.date | date: "%Y-%m-%d" }}</span><br>
-      <a href="{{ post.url }}" class="blog-link-side">{{ post.title }}</a>
+      <a href="{{ post.url }}" class="hover-line blog-side-link">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

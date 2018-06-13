@@ -4,54 +4,46 @@
 
 a {
 	text-decoration:underline;
-	color: #24292e;
-	// color: $body-color;
+	color: $body-color;
 }
-a:visited { color: #24292e;}
-a:hover { text-decoration:underline;}
+a:hover { background: #f8f8f8;}
 
 
-a.nounder {
+a.hover-line {
 	text-decoration:none;
-	color: #24292e;
 }
-a.nounder:visited { color: #24292e;}
-a.nounder:hover { text-decoration: underline;}
+a.hover-line:hover {
+	text-decoration: underline;
+	background: none;
+}
+
+a.hover-gray {
+	text-decoration:none;
+}
+a.hover-gray:hover {
+	background: #eee;
+}
 
 
-a.underline:link, a.underline:visited {text-decoration: underline;}
-a.underline:hover { font-weight: bold;}
+a.top-label-title:link, a.top-label-title:visited {
+  font-size: 0.8rem;
+	text-decoration: none;
+  background: #666;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px;
+  border-radius: 5px 5px 0 0;
+}
 
-a.nav-right-link {
-		text-decoration:none;
-		color: #555;}
-a.nav-right-link:hover {text-decoration: underline;}
+a.top-label-title:hover {
+	color: #eee;
+}
 
-a.blog-link{color: #24292e;
-	          text-decoration:none;
-						// font-size: 1.1rem;
-					}
-a.blog-link:visited { color: #24292e;}
-a.blog-link:hover{background-color: $blog-color;}
+a.blog-side-link {
+	color: #666;
+}
 
-
-a.blog-link-title{text-decoration:none;
-					      	font-size: 2.4rem;
-									color: #24292e;}
-a.blog-link-title:visited { color: #24292e;}
-a.blog-link-title:hover{background-color: $blog-color;}
-
-
-a.work-link{text-decoration:none;
-						color: #24292e;}
-a.work-link:visited {color: #24292e;}
-a.work-link:hover{background-color: $work-color;}
-
-
-a.about-link{text-decoration:none;
-						color: #24292e;}
-a.about-link:visited{ color: #24292e;}
-a.about-link:hover{background-color: $about-color;}
 
 // tag link //
 a.tag:link, a.tag:visited {
@@ -98,13 +90,8 @@ a.home-tag:hover, a.home-tag:active {
 	background: #888;
 }
 
-
-
-
-
 // tag in archive //
 a.tag-archive:link, a.tag-archive:visited {
-  //  background-color: #888;
 		border: solid 2px #888;
     color: #888;
     padding: 2px 12px;
@@ -120,17 +107,6 @@ a.tag-archive:hover, a.tag-archive:active {
 		font-size: 1em;
 }
 
-.footer-nav-menu a:link, a:visited {
-	text-decoration: none;
-	color: #606060;
-}
-
-.footer-nav-menu a:hover, a:active {
-	text-decoration: underline;
-	color: #606060;
-}
-
-
 
 // SNS fontawesome //
 a.social-link:link, a.social-link:visited {
@@ -139,13 +115,10 @@ a.social-link:link, a.social-link:visited {
 }
 a.social-link:hover { text-decoration:none;}
 
-.fa-twitter-square:hover {
-	color: $body-color;
-}
-.fa-facebook-square:hover {
+.fa-twitter-square:hover, .fa-facebook-square:hover {
 	color: $body-color;
 }
 
-.circle-tw:hover, .circle-fb:hover, .circle-env:hover {
+.circle-fa:hover {
 	background: $body-color;
 }
