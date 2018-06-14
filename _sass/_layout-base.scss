@@ -34,6 +34,8 @@ nav {
 .nav-left {
  flex: 3;
  margin-left: 25px;
+ font-size: 1.1em;
+ font-weight: 500;
 }
 
 .nav-center {
@@ -134,15 +136,6 @@ footer {
   border-bottom: 1px solid #ccc;
 }
 
-// .top-blog-title {
-//   font-size: 0.8rem;
-//   background: #666;
-//   color: #fff;
-//   display: inline-block;
-//   margin: 0;
-//   padding: 0 15px;
-//   border-radius: 5px 5px 0 0;
-// }
 
 .top-blog-list-container {
   display: flex;
