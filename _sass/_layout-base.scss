@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  height: 55px;
+  height: 40px;
   background: #fff;
   border-bottom: 2px solid #E0E0E0;
   padding-top: 10px;
@@ -14,12 +14,9 @@ nav {
 
 
 @media(min-width:550px){
-      .home2-container {
-        display: flex;
-      }
-
       .nav-container {
         display: flex;
+        justify-content: space-around;
       }
 
       .top-container {
@@ -30,21 +27,21 @@ nav {
 
 
 .nav-left {
- flex-basis: 25%;
- margin-left: 25px;
- font-size: 1.1em;
- font-weight: 500;
+   flex-basis: 20%;
+   font-size: 1.1em;
+   font-weight: 500;
 }
 
 .nav-center {
-  flex-basis: 50%;
-  margin-right: 50px;
+  flex-basis: 40%;
   font-size: 0.85rem;
   text-transform: uppercase;
+  text-align: right;
 }
 
 .nav-right {
- flex-basis: 25%;
+ flex-basis: 10%;
+ text-align: center;
 }
 
 
@@ -52,13 +49,12 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: right;
+  // text-align: right;
 }
 
 nav li {
   display: inline-block;
   padding-left: 20px;
-
 }
 
 section {
