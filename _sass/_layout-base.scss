@@ -9,44 +9,42 @@ nav {
   height: 55px;
   background: #fff;
   border-bottom: 2px solid #E0E0E0;
+  padding-top: 10px;
 }
 
 
 @media(min-width:550px){
-  .home2-container {
-    display: flex;
-  }
+      .home2-container {
+        display: flex;
+      }
 
-  .nav-container {
-    display: flex;
-  }
+      .nav-container {
+        display: flex;
+      }
 
-  .top-container {
-    display: flex;
-    margin-top: 20px;
-  }
+      .top-container {
+        display: flex;
+        margin-top: 20px;
+      }
 }
 
-.nav-container {
-  padding-top: 10px;
-}
 
 .nav-left {
- flex: 3;
+ flex-basis: 25%;
  margin-left: 25px;
  font-size: 1.1em;
  font-weight: 500;
 }
 
 .nav-center {
-  flex: 3;
+  flex-basis: 50%;
   margin-right: 50px;
   font-size: 0.85rem;
   text-transform: uppercase;
 }
 
 .nav-right {
- flex: 1;
+ flex-basis: 25%;
 }
 
 
