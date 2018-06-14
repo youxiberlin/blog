@@ -3,7 +3,7 @@ layout: post-layout
 title:  "こちらのサイトをJekyllでつくりましたーーJekyllの利点と使い方"
 date:   2018-03-25 12:00 +0100
 categories: blog
-tags: dev
+tags: dev jekyll
 author: Yuki Sato
 description: なぜ新しくサイトを作ったか、またJekyllを使う利点とJekyllの使い方をどうやって学んだかを簡単にまとめました。
 image: "coding.jpg"

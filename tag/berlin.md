@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: Berlin"
+title: "Berlin"
 tag: berlin
 ---

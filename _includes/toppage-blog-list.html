@@ -1,4 +1,4 @@
-{% for post in site.posts %}
+{% for post in site.posts limit:7 %}
  <div class="top-blog-list-container">
   <div class="top-blog-list-left">
     <a href="{{ post.url }}"><img src="/img/{{ post.image }}" width="120px;" alt=""></a>

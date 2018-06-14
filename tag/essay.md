@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: Essay"
+title: "Essay"
 tag: essay
 ---

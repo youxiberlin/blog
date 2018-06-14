@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: CSS"
+title: "CSS"
 tag: css
 ---
