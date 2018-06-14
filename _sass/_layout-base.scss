@@ -64,7 +64,7 @@ section {
 
 footer {
   background: #eee;
-  padding-top: 25px;
+  padding-top: 15px;
   margin-top: 20px;
   text-align: center;
   color: #606060;
@@ -193,13 +193,21 @@ footer {
   padding-left: 0;
 }
 
-.footer-nav-menu {
-  text-align: center;
-  font-size: 0.8rem;
-  color: #888;
-  margin-top: 12px;
+.footer-social {
+  line-height: 1rem;
 }
 
+.footer-nav-menu {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 20px;
+}
+
+.footer-font {
+  font-size: 0.7em;
+  color: #606060;
+  margin-top: 0;
+}
 
 /*
   ======  550px ======
