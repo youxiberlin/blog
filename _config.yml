@@ -28,11 +28,15 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 sass:
   style: compact
 permalink: /:title/
 
 tags:
+
+paginate: 6
+paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
