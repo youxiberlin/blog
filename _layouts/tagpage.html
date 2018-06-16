@@ -1,16 +1,40 @@
 ---
 layout: page-layout
 ---
-<ul>
+
+{% for post in site.tags[page.tag] %}
+<div class="top-blog-list-container">
+  <div class="top-blog-list-left">
+    <a href="{{ post.url }}"><img src="/img/{{ post.image }}" width="120px;" alt=""></a>
+  </div>
+  <div class="top-blog-list--right">
+    <div class="top-blog-list-title">
+      <h4 class="top-blog-list-h4"><a href="{{ post.url }}" class="hover-gray">{{ post.title }}</a></h4>
+      <ul class="post-top-tags">
+      {% for tag in post.tags %}
+      <li><a href="/tag/{{ tag }}" class="home-tag">{{ tag }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+    <p class="top-blog-list-description">
+      {{ post.description }}
+    </p>
+    <p class="top-blog-list-post-date">{{ post.date | date: "%Y-%m-%d" }} </p>
+  </div>
+</div>
+{% endfor %}
+
+{% include archive.html %}
+
+<!-- <ul>
   {% for post in site.tags[page.tag] %}
-    {% if post.lang %}
+    <! {% if post.lang %}
       <li lang="{{post.lang}}">
       {% else %}
       <li>
-      {% endif %}
+       {% endif %}
       	<b><a href="{{ post.url }}" class="blog-link">{{ post.title }}</a></b> <span class="post-date">{{ post.date  | date: "%Y-%m-%d" }}</span><br>
       	<div class="blog-excerpt">{{ post.description }}</div>
       </li>
   {% endfor %}
-</ul>
-{% include archive.html %}
+</ul> -->
