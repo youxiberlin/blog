@@ -1,8 +1,18 @@
+<div class="latest-post">Latest posts</div>
 <ul>
-  {% for post in site.categories.blog %}
+  {% for post in site.posts limit:7 %}
     <li>
       <span class="post-date-side">{{ post.date | date: "%Y-%m-%d" }}</span><br>
       <a href="{{ post.url }}" class="hover-line blog-side-link">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
+<!-- <ul>
+  {% for post in site.categories.blog %}
+    <li>
+      <span class="post-date-side">{{ post.date | date: "%Y-%m-%d" }}</span><br>
+      <a href="{{ post.url }}" class="hover-line blog-side-link">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul> -->
