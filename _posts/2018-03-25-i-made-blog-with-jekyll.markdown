@@ -6,7 +6,7 @@ categories: blog
 tags: dev jekyll
 author: Yuki Sato
 description: なぜ新しくサイトを作ったか、またJekyllを使う利点とJekyllの使い方をどうやって学んだかを簡単にまとめました。
-image: "coding.jpg"
+image: "css-code.jpg"
 ---
 
 ここ3年近く、自分のブログを [Serial Foreigner](http://serialforeigner.com/) というサイト上で運営していましたが、今回自分のプロフィールページとブログ更新を一体化したサイトを作りたいと思い、こちらのサイトを開設しました。
