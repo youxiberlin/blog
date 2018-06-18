@@ -5,7 +5,7 @@ date:   2017-12-20 23:12:50 +0100
 categories: blog
 tags: berlin startup
 author: Yuki Sato
-description: 海外就職を検討している日本のソフトウェアエンジニアの方は、アメリカ西海岸を目指す方が多いようですが、ベルリンの採用事情についてはご存知でしょうか？ 簡単に、ベルリンのエンジニア採用事情、良い点・悪い点をまとめました。
+description: 海外志向の日本のソフトウェアエンジニアの方は、アメリカ西海岸を目指すことが多いようですが、ベルリンの状況についてはご存知でしょうか？ ベルリンのエンジニア採用事情、メリット・デメリットをまとめました。
 image: "silicon-allee.jpg"
 ---
 ![silicon allee](/img/silicon-allee.jpg){:width="95%"}
