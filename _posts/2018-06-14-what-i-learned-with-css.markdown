@@ -1,5 +1,5 @@
 ---
-layout: post-layout
+layout: post-layout2
 title:  "CSSの学び"
 date:   2018-06-14 03:00 +0100
 categories: blog

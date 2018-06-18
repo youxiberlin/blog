@@ -1,5 +1,5 @@
 ---
-layout: post-layout
+layout: post-layout2
 title:  "最近のコーディングブートキャンプ事情＠ベルリン"
 date:   2018-05-14 12:00 +0100
 categories: blog

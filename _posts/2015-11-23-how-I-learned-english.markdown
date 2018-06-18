@@ -1,5 +1,5 @@
 ---
-layout: post-layout
+layout: post-layout2
 title:  "私が英語をがんばろうと思ったきっかけ、そしてやったこと。"
 date:   2015-11-23 23:12:50 +0100
 categories: blog

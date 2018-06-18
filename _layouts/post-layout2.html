@@ -1,0 +1,14 @@
+<!doctype html>
+{% include header.html %}
+{% include top-nav.html %}
+<section>
+  <div class="section-one-column">
+    {% include post-header.html %}
+
+    {{ content }}
+
+    {% include post-footer.html %}
+    {% include post-footer-relatedposts.html %}
+  </div>
+</section>
+{% include footer.html %}

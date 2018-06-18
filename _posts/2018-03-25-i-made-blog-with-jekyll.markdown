@@ -1,5 +1,5 @@
 ---
-layout: post-layout
+layout: post-layout2
 title:  "こちらのサイトをJekyllでつくりましたーーJekyllの利点と使い方"
 date:   2018-03-25 12:00 +0100
 categories: blog

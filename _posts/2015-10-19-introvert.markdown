@@ -1,5 +1,5 @@
 ---
-layout: post-layout
+layout: post-layout2
 title:  "内向型の私が、『内向型を強みにする』を読んで考えたこと"
 date:   2015-10-19 23:12:50 +0100
 categories: blog

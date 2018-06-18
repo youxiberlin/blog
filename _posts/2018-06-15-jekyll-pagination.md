@@ -1,5 +1,5 @@
 ---
-layout: post-layout
+layout: post-layout2
 title:  "Jekyll Paginationプラグインを追加してみました"
 date:   2018-06-14 03:00 +0100
 categories: blog
@@ -10,6 +10,7 @@ image: "journal.jpg"
 ---
 ![code](/img/journal.jpg){:width="100%"}
 <small style="color: #777;">Photo by [Jess Watters](https://unsplash.com/photos/cvUIv9j5wDg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash</small>
+
 
 JekyllのPaginationプラグインを追加してみました。  
 この機能を追加すると、ブログの投稿が増えた時に自動的にページが追加されるようになります。
