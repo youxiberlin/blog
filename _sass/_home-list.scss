@@ -1,25 +1,3 @@
-// list of home
-
-.home-list {
-  > ul {
-    padding-left: 0;
-    list-style: none;
-    font-weight: bold;
-  }
-
-  &.work li {
-    display: none;
-
-    ul {
-      font-weight: normal;
-    }
-
-    &:nth-child(-n+3) {
-      display: list-item;
-    }
-  }
-}
-
 // list of work page //
 .work-list {
  font-weight: bold;

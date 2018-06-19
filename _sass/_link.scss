@@ -5,23 +5,24 @@
 a {
 	text-decoration:underline;
 	color: $body-color;
+	&:hover { background: #f8f8f8;}
 }
-a:hover { background: #f8f8f8;}
+// a:hover { background: #f8f8f8;}
 
 
 a.hover-line {
 	text-decoration:none;
-}
-a.hover-line:hover {
-	text-decoration: underline;
-	background: none;
+	&:hover {
+		text-decoration: underline;
+		background: none;
+	}
 }
 
 a.hover-gray {
 	text-decoration:none;
-}
-a.hover-gray:hover {
-	background: #eee;
+	&:hover {
+		background: #eee;
+	}
 }
 
 
@@ -34,77 +35,69 @@ a.top-label-title:link, a.top-label-title:visited {
   margin: 0;
   padding: 0 15px;
   border-radius: 5px 5px 0 0;
+	&:hover {
+  	color: #eee;
+	}
 }
 
-a.top-label-title:hover {
-	color: #eee;
-}
 
 a.blog-side-link {
 	color: #666;
 }
 
 
-// tag link //
-a.tag:link, a.tag:visited {
-		border: solid 2px #888;
-    color: #888;
-    padding: 2px 15px;
-    text-align: center;
-		font-size: 0.9em;
-    text-decoration: none;
-    display: inline-block;
-}
-a.tag:hover, a.tag:active {
-    background-color: #888;
+a.tag {
+	border: solid 2px #888;
+	color: #888;
+	padding: 2px 15px;
+	text-align: center;
+	font-size: 0.9em;
+	text-decoration: none;
+	display: inline-block;
+	&:hover {
+		background-color: #888;
 		color: white;
+	}
 }
 
-
-a.top-tag:link, a.top-tag:visited {
-		background: #bbb;
-    color: #fff;
-    padding: 2px 8px;
-    text-align: center;
-		font-size: 0.9em;
-    text-decoration: none;
+a.top-tag {
+	background: #bbb;
+	color: #fff;
+	padding: 2px 8px;
+	text-align: center;
+	font-size: 0.9em;
+	text-decoration: none;
+	&:hover {
+		background: #888;
+	}
 }
 
-
-a.top-tag:hover, a.top-tag:active {
-	background: #888;
+a.home-tag {
+	background: #bbb;
+	color: #fff;
+	padding: 1px 7px;
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: 200;
+	text-decoration: none;
+	&:hover {
+		background: #888;
+	}
 }
 
-a.home-tag:link, a.home-tag:visited {
-		background: #bbb;
-    color: #fff;
-    padding: 1px 7px;
-    text-align: center;
-		font-size: 0.8em;
-		font-weight: 200;
-    text-decoration: none;
-}
-
-
-a.home-tag:hover, a.home-tag:active {
-	background: #888;
-}
-
-// tag in archive //
-a.tag-archive:link, a.tag-archive:visited {
-		border: solid 2px #888;
-    color: #888;
-    padding: 2px 12px;
-		margin: 5px 8px;
-    text-align: center;
-		font-size: 1em;
-    text-decoration: none;
-    display: inline-block;
-}
-a.tag-archive:hover, a.tag-archive:active {
-    background-color: #888;
+a.tag-archive {
+	border: solid 2px #888;
+	color: #888;
+	padding: 2px 12px;
+	margin: 5px 8px;
+	text-align: center;
+	font-size: 1em;
+	text-decoration: none;
+	display: inline-block;
+	&:hover {
+		background-color: #888;
 		color: white;
-		font-size: 1em;
+	}
 }
 
 
@@ -112,6 +105,7 @@ a.tag-archive:hover, a.tag-archive:active {
 a.social-link:link, a.social-link:visited {
 	text-decoration:none;
   color: #888;
+	font-size: 0.9rem;
 }
 a.social-link:hover { text-decoration:none;}
 

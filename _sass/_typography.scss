@@ -38,7 +38,7 @@ blockquote {
 // background-color for the main title of blog, work, about page //
 
 .blog-title {
-  background-color: $blog-color;
+  // background-color: $blog-color;
   padding: 5px;
 }
 
@@ -56,7 +56,7 @@ blockquote {
 }
 
 .post-title {
-  background-color: $blog-color;
+  // background-color: $blog-color;
   padding: 5px;
 }
 
@@ -130,11 +130,11 @@ blockquote {
   text-decoration: none;
   margin: 2px 5px;
   border-radius: 50%;
+    &:hover {
+      opacity: 0.7;
+    }
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
 
 .social-follow {
   text-align: center;
@@ -151,21 +151,22 @@ blockquote {
 }
 
 .circle-github {
-    color: #606060;
-    font-size: 1.6em;
-    margin: 0 2px 4px 2px;
+  color: #606060;
+  font-size: 1.6em;
+  margin: 0 2px 4px 2px;
 }
-.circle-tw{
+
+.circle-tw {
   padding: 0.3em 0.3em;
-	}
+}
 
 .circle-fb{
   padding: 0.3em 0.55em;
-  	}
+}
 
 .circle-codepen {
   padding: 0.3em 0.35em;
-	}
+}
 
 .circle-env {
   padding: 0.3em 0.3em;
