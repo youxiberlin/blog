@@ -1,5 +1,12 @@
 <ul>
 <li>
+<a href="http://thebridge.jp/2018/06/toa2018" class="hover-gray" target="_blank">2万名が世界各地から参加、ベルリン最大級のテックフェスティバル「TOA 2018」を振り返る</a><span class="work-media">The Bridge</span>
+</li>
+<li>
+<a href="http://thebridge.jp/2018/06/knotel-buys-ahoy-berlin" class="hover-gray" target="_blank">
+WeWork競合のKnotelがベルリンのワークスペース Ahoy!Berlin を買収、欧州進出を加速か</a><span class="work-media">The Bridge</span>
+</li>
+<li>
 <a href="http://thebridge.jp/2018/02/berlin-startup-spaces" class="hover-gray" target="_blank">人口も賃料も上昇が続くベルリンで続々とオープンするスタートアップスペース、課題は地元住民との調和</a><span class="work-media">The Bridge</span>
 </li>
 <li>
