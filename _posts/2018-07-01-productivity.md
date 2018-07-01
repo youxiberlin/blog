@@ -1,7 +1,7 @@
 ---
 layout: post-layout2
 title:  "サム・オルトマンの「生産性を高めるコツ」"
-date:   2018-06-14 03:00 +0100
+date:   2018-07-01 03:00 +0100
 categories: blog
 tags: lifehack
 author: Yuki Sato
