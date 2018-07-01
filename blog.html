@@ -2,10 +2,6 @@
 layout: page-layout
 title: Blog
 ---
-<!-- <div class="small">以前のブログ「<a href="http://serialforeigner.com/">Serial Foreigner</a>」から、こちらに移行しました。（2018年3月）</div>
-{% include toppage-blog-list.html %} -->
-
-
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
