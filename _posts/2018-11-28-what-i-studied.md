@@ -179,7 +179,7 @@ image: "steps.jpg"
 - Week8,9 : 2週間、ファイナルプロジェクトづくり。フロントはReactでバックエンドはNode.js、Express、MongoDBを使いました。
 
 #### 参考
-- [最近のコーディングブートキャンプ事情＠ベルリン](http://www.ykst.de/coding-bootcamp-berlin/)
+- [ベルリンのコーディングブートキャンプ体験記](https://note.mu/yuki_sato/n/n9857f001454d)
 - プロジェクト1: [Canvas Game - "Snow Fall"](https://github.com/youxiberlin/snow-fall-game)
 - プロジェクト2: [Bearlicious](https://github.com/youxiberlin/bearlicious)
 - プロジェクト3: [Bertech Meetups](https://github.com/youxiberlin/bertech-meetups)
