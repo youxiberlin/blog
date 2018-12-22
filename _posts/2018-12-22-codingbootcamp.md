@@ -1,7 +1,7 @@
 ---
 layout: post-layout2
 title:  "欧州でコーディングブートキャンプに参加して: 良かったこと、平均的な1日、物足りなかった点などまとめました"
-date:   2018-12-01 1:00 +0100
+date:   2018-12-22 1:00 +0100
 categories: blog
 tags: diary dev
 author: Yuki Sato
